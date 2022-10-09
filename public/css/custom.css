@@ -1,0 +1,28 @@
+.table-responsive {
+    border-radius: 30px;
+}
+
+table t {
+    background-clip: content-box;
+    border-color: #000000;
+}
+
+table tbody tr,
+#business-table table thead tr th span,
+#business-table table thead tr th img {
+    cursor: pointer;
+}
+
+table td:first-child {
+    width: 40px;
+}
+
+table thead {
+    background: linear-gradient(86.71deg, #B1CF4A 1.62%, #249F5B 158.89%);
+    box-shadow: 0px 4px 15px rgba(19, 19, 19, 0.25);
+    z-index: 10;
+}
+
+table tbody {
+    z-index: 9;
+}
